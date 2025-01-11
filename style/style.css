@@ -1,0 +1,223 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Google font Link */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Header CSS Start  */
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.6fr;
+    height: 80px;
+    color: rgb(255, 255, 255);
+    font-family: "roboto";
+    background-color: white;
+    width: 100%;
+    border-bottom: 0.7px solid rgb(106, 102, 102);
+    position: fixed;
+    top: 0px;
+    overflow: hidden;
+     z-index: 10;
+    
+}
+.nav-1 a
+{
+    float: right;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: "roboto";
+    font-size: 22px;
+    box-shadow: -4px 4px 30px rgb(197, 214, 214);
+ 
+}
+.nav-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
+.nav-1 a:hover
+{
+   
+    color: brown;
+    align-items: center;
+    font-size: 26px;
+  
+}
+/* Logo CSS Property */
+.logo
+{
+    background-image: url("../images/nursanalam-removebg-preview.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 11px;
+    box-shadow: -2px 4px 30px rgb(90, 191, 191);
+
+}
+.Download-resume a
+{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    
+}
+.Download-resume
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+   
+}
+.Download-resume button
+{
+    background-color: blue;
+    border: none;
+    height: 35px;
+    width: 170px;
+    border-radius: 5px;
+
+}
+.Download-resume button:hover
+{
+    background-color: rgb(243, 205, 15);
+    color: rgb(229, 14, 14);
+    cursor: pointer;
+}
+/* Header CSS End */
+
+
+/* Main Section-1 Start */
+
+#section-1
+{
+    height: 600px;
+    top: 0px;
+    background-color: rgb(234, 204, 147);
+    border-bottom: 2px solid rgb(232, 217, 164);
+    overflow: hidden;
+    
+}
+.content-1
+{
+    display: grid;
+    grid-template-columns: 2fr 2.2fr;
+    overflow: hidden;
+
+}
+
+.content-4
+{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-image: url("../images/nursanalam-removebg-preview.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    border: 2px solid rgb(206, 201, 201);
+    padding: 30px;
+    margin-left: 40px;
+    margin-top: 90px;
+    border: 2px solid rgb(215, 10, 10);
+    box-shadow: -2px 4px 40px rgb(205, 112, 19);
+}
+.content-3
+{
+    padding-top: 35%;
+    padding-left: 10%;
+    overflow: hidden;
+}
+.split-text-container {
+    display: flex;
+    font-size: 3rem;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.text-part {
+    display: inline-block;
+    position: relative;
+    transform: translateX(0);
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    color: black;
+    overflow: hidden;
+    
+}
+.text-part.left {
+    transform: translateX(-200%);
+    animation-name: slide-in-left;
+}
+
+.text-part.right {
+    transform: translateX(200%);
+    animation-name: slide-in-right;
+}
+
+@keyframes slide-in-left {
+    0% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-in-right {
+    0% {
+        transform: translateX(200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+#about 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid green;
+    
+}
+
+#section-2
+{
+    height: 600px;
+    width: auto;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.about-1
+{
+    height: 500px;
+    width: 500px;
+    background-image: url("../images/download.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2ps solid green;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 60px;
+    box-shadow: -2px 4px 40px rgb(0, 0, 0);
+}
+
