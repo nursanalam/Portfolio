@@ -117,30 +117,52 @@
     overflow: hidden;
 
 }
-
-.content-4
-{
-    height: 500px;
-    width: 500px;
-    border-radius: 50%;
-    background-image: url("../images/nursanalam-removebg-preview.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-    border: 2px solid rgb(206, 201, 201);
-    padding: 30px;
-    margin-left: 40px;
-    margin-top: 120px;
-    border: 2px solid rgb(215, 10, 10);
-    box-shadow: -2px 4px 40px rgb(205, 112, 19);
-}
 .content-3
 {
     padding-top: 35%;
     padding-left: 10%;
     overflow: hidden;
 }
+.content-3 h1{
+    font-size: 35px;
+    color: brown;
+    line-height: 20px;
+}
+.content-3 h3{
+    font-size: 25px;
+    line-height: 80px;
+    color: brown;
+}
+.content-3 h4{
+    font-size: 25px;
+    line-height: 10px;
+    color:  brown;
+}
+.content-3 button a{
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+   
+    color: white;
+    font-size: "roboto";
+   
+}
+.content-3 button
+{
+    height: 30px;
+    width: 160px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+
+}
+.content-3 button:hover
+{
+    background-color:  rgb(216, 55, 55);
+   
+
+}
+
 .split-text-container {
     display: flex;
     font-size: 3rem;
@@ -187,6 +209,65 @@
         transform: translateX(0);
     }
 }
+
+.icon a i{
+    line-height: 90px;
+}
+.icon a{
+    margin: 10px;
+    
+}
+
+.content-4
+{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-image: url("../images/nursanalam-removebg-preview.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    border: 2px solid rgb(206, 201, 201);
+    padding: 30px;
+    margin-left: 40px;
+    margin-top: 120px;
+    border: 2px solid rgb(215, 10, 10);
+    box-shadow: -2px 4px 40px rgb(205, 112, 19);
+}
+.stack-1
+{
+background-color: rgb(147, 101, 212);
+width: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+height: 40px;
+border-radius: 5px;
+margin-left: 10px;
+box-shadow: -2px 4px 40px rgb(205, 112, 19);
+}
+.stack-2
+{
+    background-color: rgb(147, 101, 212);
+width: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+height: 40px;
+border-radius: 5px;
+margin-left: 10px;
+margin-top: 60%;
+font-size: 15px;
+margin-left: 370px;
+box-shadow: -2px 4px 40px rgb(205, 112, 19);
+}
+
+
+/* About-Section */
+
 #about 
 {
     display: flex;
@@ -248,6 +329,10 @@
     font-weight: bold;
     border-radius:0px 5px 5px 0px
   }
+
+
+/* My Skills Section */
+
 #section-3
 {
     display: grid;
@@ -320,6 +405,10 @@
     font-size: 28px;
     
 }
+.program
+{
+    margin-left: 50px;
+}
 
 .pop{
     display: flex;
@@ -349,7 +438,7 @@ p{
     grid-template-rows: 1fr 1fr 1fr;
     height: 450px;
     background-color: burlywood;
-    padding: 60px;
+    padding: 40px;
     
 }
 .skills-part-1
@@ -381,7 +470,7 @@ p{
     border-radius: 20px 0px 20px 0px;
 }
 
-/* Section-4 */
+/*  Project Section-4 */
 
 
 #My-Project
@@ -407,25 +496,73 @@ p{
 }
 #section-4
 {
-    height: 700px;
+    height: 600px;
     background-color: white;
     grid-template-columns: 1fr 1fr 1fr;
     display: grid;
 }
 .project-1
 {
-    height: 400px;
-    width: 300px;
-    border: 2px solid green;
-   margin-left: 30px;
+    height: 450px;
+    width: 350px;
+    
+   margin-left: 50px;
+   box-shadow: -4px 4px 50px rgb(197, 214, 214);
+   border-radius: 20px;
 }
 .project-img
 {
-    height:300px;
-    width: 300px;
-    border: 2px solid green;
+    height:350px;
+    width: 350px;
+    /* border: 2px solid green; */
+    background-image: url("../images/project-1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: -4px 4px 30px rgb(197, 214, 214);
+    border-radius: 20px 20px 0px 0px;
 }
+.project-2
+{
+    height: 450px;
+    width: 350px;
+    
+   margin-left: 20px;
+   box-shadow: -4px 4px 30px rgb(197, 214, 214);
+   border-radius: 20px;
+}
+.project-img-2
+{
+    height:350px;
+    width: 350px;
+    background-image: url("../images/project-2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: -4px 4px 30px rgb(197, 214, 214);
+    border-radius: 20px 20px 0px 0px;
+}
+.project-3
+{
+    height: 450px;
+    width: 350px;
+   
+   box-shadow: -4px 4px 30px rgb(197, 214, 214);
+   border-radius: 20px;
 
+}
+.project-img-3
+{
+    height:350px;
+    width: 350px;
+
+    background-image: url("../images/projcet-3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: -4px 4px 30px rgb(197, 214, 214);
+    border-radius: 20px 20px 0px 0px;
+}
 
 
 
