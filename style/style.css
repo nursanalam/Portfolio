@@ -208,16 +208,206 @@
 }
 .about-1
 {
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     background-image: url("../images/download.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border: 2ps solid green;
-    border-radius: 5px;
-    margin-top: 40px;
-    margin-left: 60px;
+    border-radius: 8px;
+    margin-top: 120px;
+    margin-left: 70px;
     box-shadow: -2px 4px 40px rgb(0, 0, 0);
 }
+.about-2
+{
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    font-family: "roboto";
+    font-size: 19px;
+    margin: 10px;
+    color: rgb(9, 13, 13);
+    
+}
+.pp::before { 
+    content: "About" ;
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+    border-radius: 5px 0px 0px 5px;
+  }
+  .pp::after{
+    content: "Me";
+    background-color: green;
+    color: red;
+    font-weight: bold;
+    border-radius:0px 5px 5px 0px
+  }
+#section-3
+{
+    display: grid;
+    background-color: burlywood;
+    height: 400px;
+    grid-template-columns: 2fr 2fr 2fr;
+    
 
+   
+}
+.oo{
+    height: 20px;
+    width: 600px;
+    border: 2px solid green;
+}
+.jinda
+{
+    width: 70px;
+    height: 10px;
+     background: red;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    margin-top: 3px;
+    
+    
+
+}
+/* HTML: <div class="loader"></div> */
+.loader-1{
+    width: 25px;
+    height: 25px;
+    aspect-ratio: 1;
+    margin-top: 29px;
+    left: 10%;
+    border-radius: 50%;
+    border: 6px solid lightblue;
+    border-right-color: rgb(253, 5, 5);
+    animation: l2 1s infinite linear;
+    line-height: 40px;
+  }
+  @keyframes l2 {to{transform: rotate(1turn)}}
+.loader-2 {
+    width: 25px;
+    height: 25px;
+    aspect-ratio: 1;
+    margin-top: 27px;
+    left: 10%;
+    border-radius: 50%;
+    border: 6px solid lightblue;
+    border-right-color: rgb(86, 255, 2);
+    animation: l2 1s infinite linear;
+  }
+  @keyframes l2 {to{transform: rotate(1turn)}}
+.loader-3{
+    width: 25px;
+    height: 25px;
+    aspect-ratio: 1;
+    margin-top: 27px;
+    left: 10%;
+    border-radius: 50%;
+    border: 6px solid lightblue;
+    border-right-color: rgb(69, 6, 255);
+    animation: l2 1s infinite linear;
+    
+    
+  }
+  @keyframes l2 {to{transform: rotate(1turn)}}
+
+
+
+#my-skills
+{
+    height: 300px;
+    width:100%;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    padding-top: 30px;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+   
+}
+.my-project p{
+   
+    font-size: 28px;
+    
+}
+
+.pop{
+    display: flex;
+   
+}
+.pop progress
+{
+   margin-top: 27px;
+   margin-left: 10px;
+   width: 200px;
+   height: 20px;
+   border-radius: 10px;
+
+   background-color: brown;
+   
+   
+}
+p{
+    margin-top: 30px;
+    margin-left: 10px;
+    
+}
+
+
+
+
+#My-Project
+{
+    height: 300px;
+    width:100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    padding-top: 30px;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+   
+}
+#My-Project p{
+   
+    font-size: 28px;
+    color: rgb(233, 12, 64);
+    
+}
+
+
+
+
+
+
+#section-4
+{
+    height: 700px;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+}
+#section-5
+{
+    height: 700px ;
+    background-color:burlywood;
+}
+.footer-1
+{
+    height: 100px;
+    background-color: black;
+    border-top: 2px solid white;
+}
