@@ -530,10 +530,12 @@ p{
 }
 #section-4
 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     height: 600px;
     background-color: white;
-    grid-template-columns: 1fr 1fr 1fr;
-    display: grid;
+  
+   
 }
 .project-1
 {
