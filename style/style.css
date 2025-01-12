@@ -90,16 +90,17 @@
     border-radius: 5px;
 
 }
+/* Hover Used */
 .Download-resume button:hover
 {
     background-color: rgb(243, 205, 15);
     color: rgb(229, 14, 14);
     cursor: pointer;
 }
-/* Header CSS End */
+/* Header-Section CSS End */
 
 
-/* Main Section-1 Start */
+/* Home Section-1 Start */
 
 #home
 {
@@ -156,6 +157,7 @@
     border-radius: 5px;
 
 }
+/* Hover Section-1 */
 .content-3 button:hover
 {
     background-color:  rgb(216, 55, 55);
@@ -169,7 +171,7 @@
     font-weight: bold;
     overflow: hidden;
 }
-
+/* Animation Part in Section-1 */
 .text-part {
     display: inline-block;
     position: relative;
@@ -209,7 +211,7 @@
         transform: translateX(0);
     }
 }
-
+/* All The Icon Tages in section-1 */
 .icon a i{
     line-height: 90px;
 }
@@ -264,7 +266,7 @@ font-size: 15px;
 margin-left: 370px;
 box-shadow: -2px 4px 40px rgb(205, 112, 19);
 }
-
+/* Home-Section CSS End */
 
 /* About-Section */
 
@@ -315,6 +317,7 @@ box-shadow: -2px 4px 40px rgb(205, 112, 19);
     color: rgb(9, 13, 13);
     
 }
+/* Before and After Used in about-section */
 .pp::before { 
     content: "About" ;
     background-color: yellow;
@@ -329,6 +332,7 @@ box-shadow: -2px 4px 40px rgb(205, 112, 19);
     font-weight: bold;
     border-radius:0px 5px 5px 0px
   }
+/* About-Section CSS End */
 
 
 /* My Skills Section */
@@ -343,6 +347,7 @@ box-shadow: -2px 4px 40px rgb(205, 112, 19);
 
    
 }
+/* Loding USed */
 .loader-1{
     width: 25px;
     height: 25px;
@@ -367,6 +372,7 @@ box-shadow: -2px 4px 40px rgb(205, 112, 19);
     border-right-color: rgb(86, 255, 2);
     animation: l2 1s infinite linear;
   }
+  /* Css Loading  and CSS Transform Used in My-Skills Section*/
   @keyframes l2 {to{transform: rotate(1turn)}}
 .loader-3{
     width: 25px;
@@ -449,6 +455,14 @@ p{
     margin-left: 10px;
     background-color: rgb(157, 238, 218);
     border-radius: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 22px;
+    color: rgb(197, 33, 33);
+    box-shadow: -4px 4px 30px rgb(197, 214, 214);
 }
 .skills-part-2
 {
@@ -458,6 +472,14 @@ p{
     margin-left: 20px;
     background-color: rgb(176, 176, 239);
     border-radius: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 22px;
+    color: rgb(11, 10, 11);
+    box-shadow: -4px 4px 30px rgb(197, 214, 214);
 
 }
 .skills-part-3
@@ -468,7 +490,19 @@ p{
     margin-left: 20px;
     background-color: rgb(229, 220, 208);
     border-radius: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 22px;
+    color: rgb(97, 28, 235);
+    box-shadow: -4px 4px 30px rgb(197, 214, 214);
 }
+
+
+/* Skilss Section CSS End */
+
 
 /*  Project Section-4 */
 
@@ -505,16 +539,41 @@ p{
 {
     height: 450px;
     width: 350px;
+    margin-left: 50px;
+    box-shadow: -4px 4px 50px rgb(197, 214, 214);
+    border-radius: 20px;
+}
+.project-1 button a 
+{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: "roboto";
     
-   margin-left: 50px;
-   box-shadow: -4px 4px 50px rgb(197, 214, 214);
-   border-radius: 20px;
+
+}
+.project-1 button
+{
+    height: 35px;
+    width: 105px;
+    border: none;
+    background-color: blue;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.project-1 button:hover
+{
+    background-color: black;
+}
+.project-1 h1{
+    margin-left: 40px;
+    margin-top: 10px;
 }
 .project-img
 {
     height:350px;
     width: 350px;
-    /* border: 2px solid green; */
     background-image: url("../images/project-1.png");
     background-position: center;
     background-size: cover;
@@ -524,12 +583,38 @@ p{
 }
 .project-2
 {
-    height: 450px;
+    height: 500px;
     width: 350px;
+    margin-left: 20px;
+    box-shadow: -4px 4px 30px rgb(197, 214, 214);
+    border-radius: 20px;
+}
+.project-2 button a 
+{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: "roboto";
     
-   margin-left: 20px;
-   box-shadow: -4px 4px 30px rgb(197, 214, 214);
-   border-radius: 20px;
+
+}
+.project-2 button
+{
+    height: 35px;
+    width: 120px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.project-2 button:hover
+{
+    background-color: blue;
+}
+.project-2 h1{
+    margin-left: 50px;
+    margin-top: 40px;
 }
 .project-img-2
 {
@@ -546,16 +631,41 @@ p{
 {
     height: 450px;
     width: 350px;
-   
-   box-shadow: -4px 4px 30px rgb(197, 214, 214);
-   border-radius: 20px;
+    box-shadow: -4px 4px 30px rgb(197, 214, 214);
+    border-radius: 20px;
 
+}
+.project-3 button a 
+{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: "roboto";
+    
+
+}
+.project-3 button
+{
+    height: 35px;
+    width: 105px;
+    border: none;
+    background-color: blue;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.project-3 button:hover
+{
+    background-color: black;
+}
+.project-3 h1{
+    margin-left: 10px;
+    margin-top: 10px;
 }
 .project-img-3
 {
     height:350px;
     width: 350px;
-
     background-image: url("../images/projcet-3.png");
     background-position: center;
     background-size: cover;
@@ -565,11 +675,12 @@ p{
 }
 
 
+/* Project Section End */
 
 
 
 
-/* Contact Section */
+/* Contact Section Start */
 
 #contact
 {
@@ -590,8 +701,7 @@ p{
     width: 40px;
 
 }
-
-
+/* Transition Used in Contact-Section */
 .contact-10 h1 {
     width: 140px;
     height: 40px;
@@ -603,10 +713,8 @@ p{
     margin-left: 50px;
     border-radius: 8px;
     
-    
-  }
-  
-  .contact-10 h1:hover {
+}
+   .contact-10 h1:hover {
     width: 180px;
     color: white;
     font-size: 35px;
@@ -643,12 +751,15 @@ p{
     border-radius: 2px ;
     
 }
+/* pseudo-elements Used on Contact Section */
 .form-1 button:focus
 {
     background-color: rgb(0, 0, 0);
 }
 
+/* Contact Section End */
 
+/* Footer Section start */
 .footer-1
 {
     height: 100px;
@@ -660,3 +771,7 @@ p{
     justify-content: center;
     align-items: center;
 }
+/* Footer Section End */
+
+
+/* CSS End */
